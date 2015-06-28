@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Muffin Platlogo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_fullplatemuffin">Fullplatemuffin</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="themepref">Select your Platlogo Theme</string>
+    <string-array name="Theme_platlogo">
+        <item >Mascot1</item>
+        <item >Mascot2</item>
+    </string-array>
+    <string-array name="Theme_Selected">
+        <item >Mascot1</item>
+        <item >Mascot2</item>
+    </string-array>
+
+</resources>

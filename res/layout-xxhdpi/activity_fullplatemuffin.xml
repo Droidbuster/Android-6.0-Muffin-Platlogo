@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ >
+        
+    
+    <LinearLayout android:layout_width="match_parent" android:orientation="vertical" android:layout_height="match_parent">
+        
+        
+        
+        
+    <TextView
+        android:id="@+id/conceptid"
+       android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/verioncode"
+         android:gravity="center"
+        android:layout_marginTop="24dp"
+        android:text="Concept"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/byid"
+          android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/conceptid"
+         android:gravity="center"
+        android:text="by"
+       android:textSize="25sp"  />
+
+    <TextView
+        android:id="@+id/androstarkdevelopersid"
+       android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/byid"
+         android:gravity="center"
+        android:text="AndroStarkDevelopers"
+         android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/droidbusterxda"
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+                 android:gravity="center"
+        android:layout_below="@+id/androstarkdevelopersid"
+        android:layout_centerHorizontal="true"
+        android:text="-Droidbuster XDA"
+  android:textSize="25sp" />
+        
+        
+    </LinearLayout>
+        
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+ android:layout_alignParentBottom="true"
+
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/verioncode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Android 6.0"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/verionname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="Muffin"
+     
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="378dp"
+        android:layout_centerVertical="true"
+android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/mm"
+            android:layout_width="match_parent"
+            android:layout_height="378dp"
+            android:gravity="center"
+               android:layout_marginLeft="10dp"
+            android:src="@drawable/muff1" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="Platlogo Customisation" />
+        <ListPreference android:dialogTitle="Select Theme" android:title="Select Theme" android:defaultValue="@array/Theme_platlogo"  android:key="theme_key" android:summary="@string/themepref" android:entryValues="@array/Theme_platlogo" android:entries="@array/Theme_platlogo" android:enabled="true"/>
+       <PreferenceCategory android:title="+Support" />
+       <Preference  android:title="AndroStark Developers" android:key="androstark_key_web" android:summary="its my website. want to use app in your Rom visit here"/>
+       <Preference  android:title="My Github"  android:key="github_key" android:summary="My Github Account. check its source code"/>
+       <PreferenceCategory android:title="Credits" />
+       <Preference android:icon="@drawable/icon1" android:title="Droidbuster"  android:summary=" its me Developer of this Application" android:key="droidbuster_key"/>
+        <Preference android:icon="@drawable/icon4" android:title="Droidfantasy"  android:summary="for Suggestions" android:key="droidbuster_key"/>
+        <Preference android:icon="@drawable/icon5" android:title="BlackFrog"  android:key="blackfrog" android:summary="For Teaching me Android Development"/>
+        <Preference android:icon="@drawable/icon6" android:title="Endless " android:key="endlesskey" android:summary=" for Suggestions" />
+        <Preference  android:icon="@drawable/icon3"  android:title="Pritish Sahoo XDA" android:key="prtish_key" android:summary="for suggestions"/>
+                <Preference android:icon="@drawable/icon2" android:title="Sommnath XDA" android:key="Somnathkey"  android:summary="for suggestions"/>
+ <Preference android:icon="@drawable/icon7" android:title="BigBoxx Android Academy"  android:summary="The Place where i learnt everything"  android:key="bigBoox_key"/>
+</PreferenceScreen>
